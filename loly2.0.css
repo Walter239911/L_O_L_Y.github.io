@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: #8a958a;
+}
+
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    background-image: url("./rayban.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    
+}
+.nav li{
+    font-size: 20px;
+    margin: 15px;
+    margin-right: 50px ;
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 30px;
+    letter-spacing: 6px;
+    background-color: black;
+    border-radius: 10px;
+}
+.position-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 78%;
+    
+    
+}
+.position-center h1{
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+.contact{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    
+    
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 10px;
+}
+.lista li{
+    font-size: 20px;
+    margin: 15px;
+    margin-right: 25px ;
+}
+.contenedor-Precios{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.info{
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: black;
+}
+.info h2{
+    display: flex;
+    justify-content: center;
+}
+.hamburguer{
+    display: none;
+    
+}
+.contenedor-Precios{
+    border-radius: 10px;
+    font-size: 20px;
+    height: 20%;
+    background-color: black;
+}
+@media (max-width:500px){
+.nav{
+    transform: translateX(600px);
+}
+.nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(280px);
+    width: 120px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: -90px;
+}
+.hamburguer{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.imgH{
+    width: 50px;
+    height: 50px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 10%;
+}
+.position-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.lista li{
+    font-size: 15px;
+    margin: 9px;
+}
+.contenedor-Precios{
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+.contenedor-Precios li{
+
+}
+}
