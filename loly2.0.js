@@ -24,35 +24,35 @@ contenedor.forEach((el)=>{
     el.addEventListener("click", ()=>{
         console.log(`precionaste ${el.textContent}`)
         if(el.textContent.includes(el.textContent)){
-            if(el.textContent.includes("inicio")){
+            if(el.textContent.includes("Inicio")){
                 texthtml =` 
                 <div class="position-center">
                 <h1>Peluqueria</h1>
-                <h3>centro de estetica</h3>
+                <h3>Centro De Estetica</h3>
                 </div>
                 `
                 container.innerHTML = texthtml;
             }
-            if(el.textContent.includes("precio")){
+            if(el.textContent.includes("Precio")){
                 texthtml = `
-                <h1>peluqueria</h1>
+                <h1>Peluqueria</h1>
                 <div class="contenedor-Precios">
-                <ul>
+                <ul class ="contenedor-Precios-1">
                 <li>corte $300</li>
                 <li>tinte $1500</li>
                 <li>lavado $200</li>
                 </ul>
-                <ul>
+                <ul class ="contenedor-Precios-1">
                 <li>corte $300</li>
                 <li>tinte $1500</li>
                 <li>lavado $200</li>
                 </ul>
-                <ul>
+                <ul class ="contenedor-Precios-1">
                 <li>corte $300</li>
                 <li>tinte $1500</li>
                 <li>lavado $200</li>
                 </ul>
-                <ul>
+                <ul class ="contenedor-Precios-1">
                 <li>corte $300</li>
                 <li>tinte $1500</li>
                 <li>lavado $200</li>
@@ -61,32 +61,37 @@ contenedor.forEach((el)=>{
                 `
                 container.innerHTML = texthtml;
             }
-            if(el.textContent.includes("estetica")){
-               ` <h1>estetica</h1>
+            if(el.textContent.includes("Estetica")){
+               texthtml = ` <h1>Estetica</h1>
                <div class="contenedor-Estetica">
                <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
                <li>por zona $300</li>
                <li>por hora $1500</li>
                <li>lavado $200</li>
                </ul>
-               <ul class="Contenedor-Estetica-2">
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
                <li>corte $300</li>
                <li>tinte $1500</li>
                <li>lavado $200</li>
                </ul>
-               <ul class="Contenedor-Estetica-3">
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
                <li>corte $300</li>
                <li>tinte $1500</li>
                <li>lavado $200</li>
                </ul>
-               <ul class="Contenedor-Estetica-4">
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
                <li>corte $300</li>
                <li>tinte $1500</li>
                <li>lavado $200</li>
                </ul>
                </div>`
+               container.innerHTML = texthtml;
             }
-            if(el.textContent.includes("info")){
+            if(el.textContent.includes("Info")){
                 texthtml = `
                 <div class ="info">
                 <h2>quienes somos?</h2>
