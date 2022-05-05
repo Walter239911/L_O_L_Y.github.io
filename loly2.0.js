@@ -36,7 +36,7 @@ contenedor.forEach((el)=>{
             if(el.textContent.includes("precio")){
                 texthtml = `
                 <h1>peluqueria</h1>
-                <div class="contenedor-Estetica">
+                <div class="contenedor-Precios">
                 <ul>
                 <li>corte $300</li>
                 <li>tinte $1500</li>
@@ -63,7 +63,7 @@ contenedor.forEach((el)=>{
             }
             if(el.textContent.includes("estetica")){
                ` <h1>estetica</h1>
-               <div class="contenedor-Precios">
+               <div class="contenedor-Estetica">
                <ul class="Contenedor-Estetica-1">
                <li>por zona $300</li>
                <li>por hora $1500</li>
