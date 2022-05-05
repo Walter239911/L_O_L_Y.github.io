@@ -83,6 +83,32 @@
     flex-direction: row;
     margin-top: 10px;
 }
+.Contenedor-Estetica-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Contenedor-Estetica-1{
+    border: 1px solod yellow;
+    width: 100px;
+    height: 100px;
+}
+.Contenedor-Estetica-2{
+    border: 1px solod yellow;
+    width: 100px;
+    height: 100px;
+}
+.Contenedor-Estetica-3{
+    border: 1px solod yellow;
+    width: 100px;
+    height: 100px;
+}
+.Contenedor-Estetica-4{
+    border: 1px solod yellow;
+    width: 100px;
+    height: 100px;
+}
 .info{
     border-radius: 10px;
     width: 50%;
@@ -147,7 +173,11 @@
     height: 50%;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
 .contenedor-Precios li{
 
 }
 }
+=======
+}
+>>>>>>> en este commit agregamos una actualizacion donde agregamos estetica
