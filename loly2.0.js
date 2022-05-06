@@ -18,13 +18,13 @@ hamburger.addEventListener("click",()=>{
    nav.innerHTML = texthtml;*/
 })
 
-
-
 contenedor.forEach((el)=>{
     el.addEventListener("click", ()=>{
         console.log(`precionaste ${el.textContent}`)
         if(el.textContent.includes(el.textContent)){
             if(el.textContent.includes("Inicio")){
+                
+                
                 texthtml =` 
                 <div class="position-center">
                 <h1>Peluqueria</h1>
@@ -34,6 +34,7 @@ contenedor.forEach((el)=>{
                 container.innerHTML = texthtml;
             }
             if(el.textContent.includes("Precio")){
+
                 texthtml = `
                 <h1>Peluqueria</h1>
                 <div class="contenedor-Precios">
@@ -97,7 +98,7 @@ contenedor.forEach((el)=>{
                 <h2>quienes somos?</h2>
                 <p>L O L Y es un centro de estetica que cuenta con mas de 10 años de experiacia. pero solo somos eso?, no en nuestro local contamos con diversas actividades</p>
                 <h2>que actividades realizamos?</h2>
-                <p>las actividades con la que contamos son: peluqueria(especializado es mujeres), depilacion(con zera y laser),y maquinaria para la estetica femenina (....) </p>
+                <p>las actividades con la que contamos son: peluqueria(especializado es mujeres), depilacion(con cera y laser),y maquinaria para la estetica femenina (....) </p>
                 </div>
                 `
                 container.innerHTML = texthtml;
