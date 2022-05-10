@@ -16,6 +16,14 @@ hamburger.addEventListener("click",()=>{
     nav.style.border = "green";
     
    nav.innerHTML = texthtml;*/
+});
+
+contenedor.forEach((el)=>{
+    el.addEventListener("click",()=>{
+            if(el.textContent.includes()){
+                
+            }
+    })
 })
 
 contenedor.forEach((el)=>{
@@ -23,12 +31,39 @@ contenedor.forEach((el)=>{
         console.log(`precionaste ${el.textContent}`)
         if(el.textContent.includes(el.textContent)){
             if(el.textContent.includes("Inicio")){
-                
-                
                 texthtml =` 
                 <div class="position-center">
                 <h1>Peluqueria</h1>
                 <h3>Centro De Estetica</h3>
+                </div>
+                `
+                container.innerHTML = texthtml;
+            }
+            if(el.textContent.includes("Noticias")){
+                texthtml =`
+                <h1>Promociones de la semana</h1>
+                <div class="conteiner-Notice">
+                    <ul class="container-Notice-ul">
+                    <h3>Peluqueria</h3>
+                        <li>alizado</li>
+                        <li> + </li>
+                        <li>corte</li>
+                        <b> $1500 </b>
+                    </ul>
+                    <ul class="container-Notice-ul">
+                    <h3>Estetica</h3>
+                        <li>blabla</li>
+                        <li> + </li>
+                        <li>corte</li>
+                        <b> $1500 </b>
+                    </ul>
+                    <ul class="container-Notice-ul">
+                    <h3>Masajes</h3>
+                    <li>cuerpo completo</li>
+                    <li> + </li>
+                    <li>corte</li>
+                    <b> $1500 </b>
+                    </ul>
                 </div>
                 `
                 container.innerHTML = texthtml;
@@ -58,9 +93,30 @@ contenedor.forEach((el)=>{
                 <li>tinte $1500</li>
                 <li>lavado $200</li>
                 </ul>
+                <ul class ="contenedor-Precios-1">
+                <li>corte $300</li>
+                <li>tinte $1500</li>
+                <li>lavado $200</li>
+                </ul>
+                <ul class ="contenedor-Precios-1">
+                <li>corte $300</li>
+                <li>tinte $1500</li>
+                <li>lavado $200</li>
+                </ul>
+                <ul class ="contenedor-Precios-1">
+                <li>corte $300</li>
+                <li>tinte $1500</li>
+                <li>lavado $200</li>
+                </ul>
+                <ul class ="contenedor-Precios-1">
+                <li>corte $300</li>
+                <li>tinte $1500</li>
+                <li>lavado $200</li>
+                </ul>
                 </div>
                 `
                 container.innerHTML = texthtml;
+                
             }
             if(el.textContent.includes("Estetica")){
                texthtml = ` <h1>Estetica</h1>
@@ -89,8 +145,33 @@ contenedor.forEach((el)=>{
                <li>tinte $1500</li>
                <li>lavado $200</li>
                </ul>
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
+               <li>por zona $300</li>
+               <li>por hora $1500</li>
+               <li>lavado $200</li>
+               </ul>
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
+               <li>corte $300</li>
+               <li>tinte $1500</li>
+               <li>lavado $200</li>
+               </ul>
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
+               <li>corte $300</li>
+               <li>tinte $1500</li>
+               <li>lavado $200</li>
+               </ul>
+               <ul class="Contenedor-Estetica-1">
+               <h3>Depilacion Lazer</h3>
+               <li>corte $300</li>
+               <li>tinte $1500</li>
+               <li>lavado $200</li>
+               </ul>
                </div>`
                container.innerHTML = texthtml;
+               
             }
             if(el.textContent.includes("Info")){
                 texthtml = `
@@ -102,6 +183,7 @@ contenedor.forEach((el)=>{
                 </div>
                 `
                 container.innerHTML = texthtml;
+                
             }
         }
     })
