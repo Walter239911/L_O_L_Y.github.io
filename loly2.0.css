@@ -218,7 +218,8 @@ body{
     border: 1px yellow solid;
 }
 .li:hover{
-    background-color: aqua;
+    background-color: #8a958a;
+    color: black;
 }
 .header h1{
     text-align: center;
