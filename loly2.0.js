@@ -7,6 +7,7 @@ let texthtml = "";
 
 hamburger.addEventListener("click",()=>{
     nav.classList.toggle("nav-2")
+   
   /*  texthtml = `<ul>
     <li class="li">inicio</li>
     <li class="li">precio</li>
@@ -19,18 +20,12 @@ hamburger.addEventListener("click",()=>{
 });
 
 contenedor.forEach((el)=>{
-    el.addEventListener("click",()=>{
-            if(el.textContent.includes()){
-                
-            }
-    })
-})
-
-contenedor.forEach((el)=>{
     el.addEventListener("click", ()=>{
+        
         console.log(`precionaste ${el.textContent}`)
         if(el.textContent.includes(el.textContent)){
             if(el.textContent.includes("Inicio")){
+                nav.classList.toggle("nav-2")
                 texthtml =` 
                 <div class="position-center">
                 <h1>Peluqueria</h1>
@@ -40,6 +35,7 @@ contenedor.forEach((el)=>{
                 container.innerHTML = texthtml;
             }
             if(el.textContent.includes("Noticias")){
+                nav.classList.toggle("nav-2")
                 texthtml =`
                 <h1>Promociones de la semana</h1>
                 <div class="conteiner-Notice">
@@ -69,7 +65,7 @@ contenedor.forEach((el)=>{
                 container.innerHTML = texthtml;
             }
             if(el.textContent.includes("Precio")){
-
+                nav.classList.toggle("nav-2")
                 texthtml = `
                 <h1>Peluqueria</h1>
                 <div class="contenedor-Precios">
@@ -119,6 +115,7 @@ contenedor.forEach((el)=>{
                 
             }
             if(el.textContent.includes("Estetica")){
+                nav.classList.toggle("nav-2")
                texthtml = ` <h1>Estetica</h1>
                <div class="contenedor-Estetica">
                <ul class="Contenedor-Estetica-1">
@@ -174,6 +171,7 @@ contenedor.forEach((el)=>{
                
             }
             if(el.textContent.includes("Info")){
+                nav.classList.toggle("nav-2")
                 texthtml = `
                 <div class ="info">
                 <h2>quienes somos?</h2>
